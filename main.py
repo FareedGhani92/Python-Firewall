@@ -70,7 +70,7 @@ def bind_sockets(interface):
 if __name__ == "__main__":
     interfaces = get_interfaces()
 
-    if len(interfaces.items()) < 4:
+    if len(interfaces.items()) < 2:
         print("Not enough interfaces")
         exit()
     for key, val in interfaces.items():
